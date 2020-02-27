@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "item": "compressedblocks:compressed_cobblestone_x6"
+    }
+  ],
+
+  "result":
+  {
+    "item": "compressedblocks:compressed_cobblestone_x5",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_cobblestone_x1",
+    "count": 1
+  }
+}
