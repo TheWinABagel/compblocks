@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "compressedblocks",
-  "version": "1.0",
+  "version": "0.2",
 
   "name": "Compressed Blocks",
   "description": "Adds compressed versions of various blocks",
@@ -10,7 +10,7 @@
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/MrWinABagel/compblocks"
   },
 
   "license": "CC0-1.0",
@@ -28,7 +28,7 @@
   "depends": {
     "fabricloader": ">=0.7.2",
     "fabric": "*",
-    "minecraft": [ "1.15.x", "1.16-alpha.20.6.a", "1.16-alpha.20.7.a", "1.16-alpha.20.8.a", "1.16-alpha.20.9.a"]
+    "minecraft": [ "1.15.x", "1.16.x"]
   },
   "suggests": {
     "flamingo": "*"

@@ -6,5 +6,13 @@
   "block.compressedblocks.compressed_cobblestone_x5": "5x Compressed Cobblestone",
   "block.compressedblocks.compressed_cobblestone_x6": "6x Compressed Cobblestone",
   "block.compressedblocks.compressed_cobblestone_x7": "7x Compressed Cobblestone",
-  "block.compressedblocks.compressed_cobblestone_x8": "8x Compressed Cobblestone"
+  "block.compressedblocks.compressed_cobblestone_x8": "8x Compressed Cobblestone",
+  "block.compressedblocks.compressed_dirt_x1": "1x Compressed Dirt",
+  "block.compressedblocks.compressed_dirt_x2": "2x Compressed Dirt",
+  "block.compressedblocks.compressed_dirt_x3": "3x Compressed Dirt",
+  "block.compressedblocks.compressed_dirt_x4": "4x Compressed Dirt",
+  "block.compressedblocks.compressed_dirt_x5": "5x Compressed Dirt",
+  "block.compressedblocks.compressed_dirt_x6": "6x Compressed Dirt",
+  "block.compressedblocks.compressed_dirt_x7": "7x Compressed Dirt",
+  "block.compressedblocks.compressed_dirt_x8": "8x Compressed Dirt"
 }

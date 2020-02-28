@@ -28,6 +28,22 @@ public class compressedblocks implements ModInitializer {
 	private static final Item COMPRESSED_COBBLESTONE7_ITEM = new BlockItem(COMPRESSED_COBBLESTONE7, new Item.Settings().group(ItemGroup.MATERIALS));
 	private static final Block COMPRESSED_COBBLESTONE8 = new CompressedCobblestone(FabricBlockSettings.of(Material.STONE).strength(20, 18000000).build());
 	private static final Item COMPRESSED_COBBLESTONE8_ITEM = new BlockItem(COMPRESSED_COBBLESTONE8, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(2, 40).build());
+	private static final Item COMPRESSED_DIRT_ITEM = new BlockItem(COMPRESSED_DIRT, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT2 = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(2, 100).build());
+	private static final Item COMPRESSED_DIRT2_ITEM = new BlockItem(COMPRESSED_DIRT2, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT3 = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(2, 200).build());
+	private static final Item COMPRESSED_DIRT3_ITEM = new BlockItem(COMPRESSED_DIRT3, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT4 = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(2, 1000).build());
+	private static final Item COMPRESSED_DIRT4_ITEM = new BlockItem(COMPRESSED_DIRT4, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT5 = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(3, 2000).build());
+	private static final Item COMPRESSED_DIRT5_ITEM = new BlockItem(COMPRESSED_DIRT5, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT6 = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(3, 5000).build());
+	private static final Item COMPRESSED_DIRT6_ITEM = new BlockItem(COMPRESSED_DIRT6, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT7 = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(4, 10000).build());
+	private static final Item COMPRESSED_DIRT7_ITEM = new BlockItem(COMPRESSED_DIRT7, new Item.Settings().group(ItemGroup.MATERIALS));
+	private static final Block COMPRESSED_DIRT8 = new CompressedDirt(FabricBlockSettings.of(Material.EARTH).strength(4, 100000).build());
+	private static final Item COMPRESSED_DIRT8_ITEM = new BlockItem(COMPRESSED_DIRT8, new Item.Settings().group(ItemGroup.MATERIALS));
 
 	@Override
 	public void onInitialize() {
@@ -47,5 +63,23 @@ public class compressedblocks implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_cobblestone_x7"), COMPRESSED_COBBLESTONE7_ITEM);
 		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_cobblestone_x8"), COMPRESSED_COBBLESTONE8);
 		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_cobblestone_x8"), COMPRESSED_COBBLESTONE8_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x1"), COMPRESSED_DIRT);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x1"), COMPRESSED_DIRT_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x2"), COMPRESSED_DIRT2);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x2"), COMPRESSED_DIRT2_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x3"), COMPRESSED_DIRT3);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x3"), COMPRESSED_DIRT3_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x4"), COMPRESSED_DIRT4);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x4"), COMPRESSED_DIRT4_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x5"), COMPRESSED_DIRT5);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x5"), COMPRESSED_DIRT5_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x6"), COMPRESSED_DIRT6);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x6"), COMPRESSED_DIRT6_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x7"), COMPRESSED_DIRT7);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x7"), COMPRESSED_DIRT7_ITEM);
+		Registry.register(Registry.BLOCK, new Identifier("compressedblocks", "compressed_dirt_x8"), COMPRESSED_DIRT8);
+		Registry.register(Registry.ITEM, new Identifier("compressedblocks", "compressed_dirt_x8"), COMPRESSED_DIRT8_ITEM);
+
+
 	}
 }
