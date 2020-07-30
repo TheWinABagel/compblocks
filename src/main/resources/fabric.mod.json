@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "compressedblocks",
+  "version": "1.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Compressed Blocks",
+  "description": "Adds compressed versions of various blocks",
   "authors": [
-    "Me!"
+    "MrWinABagel"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/compressed-blocks-for-fabric",
+    "sources": "https://github.com/MrWinABagel/compblocks"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/compressedblocks/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.github.mrwinabagel.compressedblocks"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {

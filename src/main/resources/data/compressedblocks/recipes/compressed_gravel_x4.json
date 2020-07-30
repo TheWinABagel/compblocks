@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "compressedblocks:compressed_gravel_x3"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_gravel_x4",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "compressedblocks:compressed_netherrack_x2"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_netherrack_x3",
+    "count": 1
+  }
+}
