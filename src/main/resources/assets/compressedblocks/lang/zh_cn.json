@@ -30,5 +30,13 @@
   "block.compressedblocks.compressed_gravel_x5": "5倍压缩沙砾",
   "block.compressedblocks.compressed_gravel_x6": "6倍压缩沙砾",
   "block.compressedblocks.compressed_gravel_x7": "7倍压缩沙砾",
-  "block.compressedblocks.compressed_gravel_x8": "8倍压缩沙砾"
+  "block.compressedblocks.compressed_gravel_x8": "8倍压缩沙砾",
+  "block.compressedblocks.compressed_netherrack_x1": "1倍压缩下界岩",
+  "block.compressedblocks.compressed_netherrack_x2": "2倍压缩下界岩",
+  "block.compressedblocks.compressed_netherrack_x3": "3倍压缩下界岩",
+  "block.compressedblocks.compressed_netherrack_x4": "4倍压缩下界岩",
+  "block.compressedblocks.compressed_netherrack_x5": "5倍压缩下界岩",
+  "block.compressedblocks.compressed_netherrack_x6": "6倍压缩下界岩",
+  "block.compressedblocks.compressed_netherrack_x7": "7倍压缩下界岩",
+  "block.compressedblocks.compressed_netherrack_x8": "8倍压缩下界岩"
 }
